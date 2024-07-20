@@ -1,0 +1,24 @@
+.dashboard-main {
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: "Nunito Sans", sans-serif;
+    margin: 0;
+  }
+
+  .rating-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .dashboard-card {
+      padding: 10px;
+      margin: 10px 0px;
+      border-radius: 8px;
+      width: 300px;
+      height: 150px;
+      box-shadow: 6px 6px 54px 0px #0000000d;
+      background-color: #ffff;
+    }
+  }
+}

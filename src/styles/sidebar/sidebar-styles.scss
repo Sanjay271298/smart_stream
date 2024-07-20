@@ -1,0 +1,32 @@
+.sidebar {
+    width: 200px;
+    background: lightgray;
+    height: 100vh;
+  
+    &-nav {
+      &-list {
+        list-style-type: none;
+        padding: 0;
+  
+        &-item {
+          margin: 10px 0;
+  
+          &-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+  
+            .sidebar-icon {
+              fill: red;
+              width: 24px;
+              height: 24px;
+              margin-right: 8px;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+  
